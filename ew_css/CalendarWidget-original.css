@@ -1,0 +1,158 @@
+
+#ui-datepicker-div {
+    font: 70.5% "Trebuchet MS", sans-serif;
+}
+
+#CalendarWidget {
+    width: 220px;
+    height: 225px;
+    background-color: Transparent;
+    position: relative;
+}
+
+.ui-datepicker-trigger {
+    position: absolute;
+    top: 19px;
+    left: 100px;
+}
+
+.w_cursor {
+    cursor: pointer;
+}
+
+.w_textbox {
+    height: 19px;
+    font: normal normal normal 11px Arial, sans-serif;
+    color: #3e3d2f;
+}
+
+.w_label {
+    font: normal normal bold 12px Arial, sans-serif;
+    color: #3e3d2f;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.w_label_reset {
+    position: absolute;
+    top: 65px;
+    left: 140px;
+    font: normal normal normal 11px Arial, sans-serif;
+    color: #E43D2F;
+}
+
+.w_label_error {
+    font: normal normal bold 12px Arial, sans-serif;
+    color: #E43D2F;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    visibility: visible;
+}
+
+.w_dropdown {
+    height: 19px;
+    font: normal normal normal 11px Arial, sans-serif;
+    color: #3e3d2f;
+    position: absolute;
+    top: 17px;
+    left: -2px;
+}
+
+.divArrivalDate {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 120px;
+    height: 40px;
+}
+
+.divDepartureDate {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 120px;
+    height: 40px;
+}
+
+.divNights {
+    position: absolute;
+    top: 0px;
+    left: 135px;
+    width: 90px;
+    height: 40px;
+}
+
+.divAdults {
+    position: absolute;
+    top: 115px;
+    left: 10px;
+    width: 50px;
+    height: 40px;
+}
+
+.divChildren {
+    position: absolute;
+    top: 115px;
+    left: 61px;
+    width: 50px;
+    height: 40px;
+}
+
+.divPromo {
+    position: absolute;
+    top: 165px;
+    left: 10px;
+    width: 120px;
+    height: 40px;
+}
+
+.txtDates {
+    width: 90px;
+    position: absolute;
+    top: 17px;
+    left: 0px;
+}
+
+.txtNights {
+    width: 30px;
+    position: absolute;
+    top: 17px;
+    left: 0px;
+}
+
+.txtPromoCode {
+    width: 90px;
+    position: absolute;
+    top: 17px;
+    left: 0px;
+}
+
+.imgNightsDown {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+}
+
+.imgNightsUp {
+    position: absolute;
+    top: 20px;
+    left: 55px;
+}
+
+.RateCategories {
+    position: absolute;
+    top: 220px;
+    left: 10px;
+    width: 270px;
+}
+
+.btnBook {
+    position: absolute;
+    top: 300px;
+    left: 6px;
+    width: 150px;
+    height: 25px;
+    font: normal normal normal 11px Arial, sans-serif;
+}

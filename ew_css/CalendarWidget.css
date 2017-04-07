@@ -1,0 +1,160 @@
+
+#ui-datepicker-div {
+    font: 70.5% "Trebuchet MS", sans-serif;
+}
+
+#CalendarWidget {
+    width: 100%;
+    height: auto;
+    background-color: Transparent;
+    position: relative;
+}
+
+.ui-datepicker-trigger {
+    position: relative;
+/*
+    top: 19px;
+    left: 100px;
+*/
+}
+
+.w_cursor {
+    cursor: pointer;
+}
+
+/*.w_textbox {
+    height: 19px;
+    font: normal normal normal 11px Arial, sans-serif;
+    color: #3e3d2f;
+}*/
+
+/*.w_label {
+    font: normal normal bold 12px Arial, sans-serif;
+    color: #3e3d2f;
+    position: relative;
+
+}*/
+
+.w_label_reset {
+    position: relative;
+
+    font: normal normal normal 11px Arial, sans-serif;
+    color: #E43D2F;
+}
+
+.w_label_error {
+    font: normal normal bold 12px Arial, sans-serif;
+    color: #E43D2F;
+    position: relative;
+/*
+    top: 130px;
+    left: 10px;
+*/
+    visibility: visible;
+}
+
+.w_dropdown {
+    height: 19px;
+    /*font: normal normal normal 11px Arial, sans-serif;*/
+    color: #3e3d2f;
+    position: relative;
+/*
+    top: 17px;
+    left: -2px;
+*/
+}
+
+.divArrivalDate {
+    position: relative;
+    height: auto;
+}
+
+.divDepartureDate {
+    position: relative;
+    height: auto;
+}
+
+.divNights {
+    position: relative;
+    height: 100px;
+    width: 40px
+}
+
+.divAdults {
+    position: relative;
+    height: auto;
+}
+
+.divChildren {
+    position: relative;
+    height: auto;
+}
+
+.divPromo {
+    position: relative;
+    height: auto;
+}
+
+.txtDates {
+    width: 90px;
+    position: relative;
+/*
+    top: 17px;
+    left: 0px;
+*/
+}
+
+.txtNights {
+    width: 30px;
+    position: relative;
+    display: none;
+/*
+    top: 17px;
+    left: 0px;
+*/
+}
+
+.txtPromoCode {
+    width: 90px;
+    position: relative;
+/*
+    top: 17px;
+    left: 0px;
+*/
+}
+
+.imgNightsDown {
+    position: relative;
+    display: none;
+/*
+    top: 20px;
+    left: 35px;
+*/
+}
+
+.imgNightsUp {
+    position: relative;
+    display: none;
+/*
+    top: 20px;
+    left: 55px;
+*/
+}
+
+.RateCategories {
+    position: relative;
+    top: 220px;
+    left: 10px;
+    width: 270px;
+}
+
+.btnBook {
+    position: relative;
+/*
+    bottom: 300px;
+    left: 6px;
+*/
+    width: 150px;
+    height: 25px;
+    font: normal normal normal 11px Arial, sans-serif;
+}

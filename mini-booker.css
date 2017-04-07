@@ -1,0 +1,265 @@
+/* %%%%%%%%%%%%%%% This is the "Book" button in the navigation %%%%%%%%%%%%%%% */
+#check_availability, 
+.btn-contact {
+  background: none;
+  border: none;
+  height: 50px;
+  background-color: #8CE0D1;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 300;
+  color: #003b49;
+  text-transform: uppercase;
+  font-size: 30px;
+  border-radius: 5px;
+}
+#check_availability:hover,
+.btn-contact:hover {
+  color: #8CE0D1;
+  background-color: #003b49;
+}
+.btn-contact {
+  padding-left: 0;
+    padding-right: 0;
+}
+.btn-contact a {
+    color: #003b49;
+    font-weight: 300;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    /*background-color: #8CE0D1;
+    border-color: #385a54*/;
+}
+.btn-contact:hover a {
+  text-decoration: none;
+  color: #8CE0D1;
+  display: block;
+    width: 100%;
+    height: 100%;
+}
+#menu-item-721 {
+  margin-top: 35px;
+}
+
+/* %%%%%%%%%%%%%%% ID that wraps it all %%%%%%%%%%%%%%% */
+#minibooker_dropdown {
+    position: fixed !important;
+    width: 100%;
+    z-index: 2001;
+    top: 120px;
+    background: rgba(255, 255, 255, 0.85);
+    font-size: 24px;
+    font-weight: 300;
+    padding: 15px 30px;
+}
+
+/* %%%%%%%%%%%%%%% UI Calendar %%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%% This font size sets the entire size of the calendar select accordingly %%%%%%%%%%%%%%% */
+#ui-datepicker-div,
+.ui-datepicker {
+  font-size: 22px !important;
+}
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+  color: #5d5d5d;
+}
+#w_txtArrivalDate.buttonImage:hover {
+      cursor: pointer;
+}
+.font-25 {
+    font-size: 25px !important;
+}
+.ui-widget-header, .ui-datepicker-header {
+     background: #003b49; !important;
+     border: 1px solid #8CE0D1 !important;    
+
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    border: 1px solid #003b49 !important;
+    background: #f5f0e5 url(images/ui-bg_glass_100_f5f0e5_1x400.png) 50% 50% repeat-x;
+    font-weight: normal;
+    color: #8CE0D1 !important;
+    cursor: pointer;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 1px solid #e0cfc2;
+    background: #f4f0ec url(images/ui-bg_highlight-hard_100_f4f0ec_1x100.png) 50% 50% repeat-x;
+    font-weight: normal;
+    color: #8CE0D1 !important;
+    
+    
+}
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    color: #8CE0D1 !important;
+}
+.ui-datepicker:hover select.ui-datepicker-month:hover, .ui-datepicker:hover select.ui-datepicker-year:hover {
+    color: #003b49 !important;
+    cursor: pointer;
+
+}
+
+.input-group:hover {
+    cursor: pointer;
+    color: #8CE0D1; 
+}
+.w_textbox {
+    cursor: pointer;
+
+}
+#w_txtPromoCode:focus {
+    border-color: #8CE0D1;
+}
+/* %%%%%%%%%%%%%%% make it pretty with spacing and sizes %%%%%%%%%%%%%%% */
+.content-space-top {
+    margin-top: 120px; 
+}
+.padding-bottom {
+  padding-bottom: 15px;
+}
+.height35 {
+  height: 35px;
+}
+
+.height40 {
+  height: 44px;
+}
+
+.input-font-size {
+  font-size: 24px;
+}
+
+/* %%%%%%%%%%%%%%% Adult and Child selectors %%%%%%%%%%%%%%% */
+.btn-underline {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #5d5d5d;
+  width: 100%;
+  text-align: left;
+  box-shadow: none !important;
+}
+
+ul.listHover li:hover {
+    background: #003b49;
+    color: #8CE0D1; 
+    
+
+}
+.textHover:hover {
+    color: #8CE0D1; 
+}
+
+.ul-dropdown:hover {
+  cursor: pointer;
+}
+
+.ul-dropdown li {
+  padding-left: 15px;
+}
+
+.ul-dropdown li:hover {
+  background-color: rgba(255,255,255,.8);
+}
+
+.ui-datepicker-trigger {
+  margin-left: 5px;
+}
+
+.btn-info {
+    color: #003b49;
+    background-color: #8CE0D1;
+    border-color: #385a54;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info {
+    color: #8CE0D1;
+    background-color: #003b49;
+    border-color: #385a54;
+}
+
+/* %%%%%%%%%%%%%%% the dark overlay of the background %%%%%%%%%%%%%%% */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  right: 0;
+}
+
+.overlay {
+  opacity: 0;
+  -webkit-transition: visibility 0s, opacity .75s;
+  transition: visibility 0s, opacity .75s;
+  background-color: rgba(37,37,37,.75);
+  pointer-events: none;
+}
+
+.overlay.active {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* %%%%%%%%%%%%%%% Responsive elements for 768 and below %%%%%%%%%%%%%%% */
+@media (max-width: 768px) {
+  .input-font-size {
+    font-size: 16px;
+  }
+  
+  .hasDatepicker {
+    font-size: 16px;
+    width: 80%
+  }
+  
+  #check_availability {
+    top: 10px;
+    float: right;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    background-color: #FFF !important;
+}
+#ui-datepicker-div,
+.ui-datepicker {
+  font-size: 18px !important;
+}
+}
+
+@media (max-width: 990px) {
+    .input-font-size {
+     font-size: 16px;
+  }
+  
+  .hasDatepicker {
+    font-size: 16px;
+    width: 80%
+  }
+  
+  #check_availability {
+    top: 10px;
+    float: right;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+#ui-datepicker-div,
+.ui-datepicker {
+  font-size: 18px !important;
+}
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    background-color: #FFF !important;
+    }
+    
+}
+
+

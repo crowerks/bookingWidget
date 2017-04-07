@@ -1,0 +1,19 @@
+.PropertySelection
+{
+  position: absolute;
+  top: 125px;
+  left: 10px; 
+  width: 150px;
+  height: 21px; 
+  font: normal normal normal 11px Arial, sans-serif;
+}
+
+.w_label_error
+{
+	font: normal normal bold 12px Arial, sans-serif; 
+	color: #E43D2F;
+  position: absolute;
+  top: 170px;
+  left: 10px; 
+  visibility: visible;    
+}
